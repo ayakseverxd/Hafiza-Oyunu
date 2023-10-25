@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HAFIZA OYUNU</title>
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h2>Hafıza Oyunu</h2>
+    </header>
+    <section class="score-panel">
+      <ul id="star-rating" class="star-rating">
+        <li class="star"><i class="fa fa-star"></i></li>
+        <li class="star"><i class="fa fa-star"></i></li>
+        <li class="star"><i class="fa fa-star"></i></li>
+      </ul>
+        Hamleler
+        <br>
+      <span class="moves-counter"></span>
+      <div class="timer-container">
+        <span class="timer"><i class="fa fa-hourglass-start"></i> Süre: 00:00</span>
+      </div>
+      <div class="reset">
+        <button class="btn reset-btn">Sıfırla<i class="fa fa-repeat"></i></button>
+      </div>
+      <br>
+      <div class="reset">
+        <button class="btn play-btn">Başla<i class="fa fa-repeat"></i></button>
+      </div>
+      <br>
+    </section>
+  
+
+    <section class="win-game-modal">
+      <div id="modal" class="modal">
+
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Tebrikler!</h2>
+          <p>Oyunu kazandın! Tebrikler!</p>
+          <img class="modal-img" src="static/img/one.jpg" alt="" style="width: 350px; height: 350px;">
+          <button class="btn play-again-btn">Yeniden Oyna?!</button>
+        </div>
+      </div>
+    </section>
+  
+    <ul class="deck"></ul>
+  </div>
+
+    <script src="static/js/script.js"></script>
+    </body>
+</body>
+</html>
+</html>
