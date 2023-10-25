@@ -1,3 +1,14 @@
+/*
+	good working css in general. but make sure to test them with different resolutions
+	the view broke a little at 799px and broke completely at 549px
+	you can probably fix them easily by adjusting some css
+	but my css is not very good so i couldn't pin-point what went wrong
+	play around with resizing the chrome window, and take a look at phone simulators provided by chrome dev tools
+
+	i can see that you and muhammed worked together on this project. but his css didn't have the small screen
+	issues. make sure to collaberate and find out where you went wrong and how his code handled those
+*/
+
 /*----------------------------------  
 Global Styles
 ------------------------------------*/

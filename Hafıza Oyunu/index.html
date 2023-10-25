@@ -13,6 +13,7 @@
     </header>
     <section class="score-panel">
       <ul id="star-rating" class="star-rating">
+        <!-- did you forget to include font awesome? these are all invisible -->
         <li class="star"><i class="fa fa-star"></i></li>
         <li class="star"><i class="fa fa-star"></i></li>
         <li class="star"><i class="fa fa-star"></i></li>
@@ -41,6 +42,7 @@
           <span class="close">&times;</span>
           <h2>Tebrikler!</h2>
           <p>Oyunu kazandın! Tebrikler!</p>
+          <!-- the width/height definitions here overrides everything in css and makes this image non-responsive -->
           <img class="modal-img" src="static/img/one.jpg" alt="" style="width: 350px; height: 350px;">
           <button class="btn play-again-btn">Yeniden Oyna?!</button>
         </div>
@@ -52,6 +54,6 @@
 
     <script src="static/js/script.js"></script>
     </body>
-</body>
-</html>
+</body> 
+</html> <!-- extra closing tags! browser will probably fix this for you, but it's good to keep things clean just in case -->
 </html>
